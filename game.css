@@ -1,0 +1,263 @@
+
+/*RESET CSS*/
+
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+/*CODE*/
+
+.container{
+	max-width: 1135px;
+	margin: 0 auto;
+}
+
+.section{
+	margin-bottom: 135px;
+}
+
+.header{
+	margin-bottom: 135px;
+	background-image: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+;
+}
+
+.header-line{
+	padding-top: 40px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo{
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 47px;
+	color: #fff;
+}
+
+.nav-link{
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	color: #fff;
+}
+
+.nav-link:not(:last-child){
+	margin-right: 60px;
+}
+
+.header-btn a{
+	color: #fff;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	padding: 16px 32px;
+	border-radius: 20px;
+    background-color: #023047;
+}
+
+.info{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-title{
+	font-family: Raleway;
+	font-size: 50px;
+	font-weight: 900;
+	line-height: 63px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.info-desc{
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.info-btn a{
+	color: #fff;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	padding: 20px 40px;
+	background-color: #DA722C;
+	border-radius: 25px;
+}
+
+.students{
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-title{
+	padding: 20px 32px;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 27px;
+	color: #fff;
+	background-color: #6F7DFB;
+	border-radius: 20px;
+}
+
+.card-desc{
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 29px;
+	color: #023047;
+}
+
+.students-title{
+	font-family: Raleway;
+	font-size: 60px;
+	font-weight: 900;
+	line-height: 72px;
+	color: #023047;
+	margin-bottom: 15px;
+}
+
+.orange-title{
+	background-color: #DA722C;
+}
+
+.students-desc{
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #023047;
+	margin-bottom: 40px;
+}
+
+.students-btn a{
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	color: #fff;
+	padding: 16px 32px;
+	background-color: #DA722C;
+	border-radius: 20px;
+}
+
+.student-card{
+	border-radius: 20px;
+	box-shadow: 0px 9px 36px 0px #00000033;
+}
+
+.student-card:not(:last-child){
+	margin-bottom: 50px;
+}
+
+.card-desc{
+	padding: 0 32px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.desc-img{
+	margin-top: -10px;
+}
+
+.games-bg{
+	padding-bottom: 60px;
+	background-image: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+}
+
+.games-title{
+	margin-bottom: 55px;
+	padding-top: 70px;
+	font-family: Raleway;
+	font-size: 60px;
+	font-weight: 900;
+	line-height: 72px;
+	color: #fff;
+	text-align: center;
+}
+
+.app{
+	padding-bottom: 100px;
+}
+
+.games-cards{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.games-card{
+	border-radius: 25px;
+	background-color: #fff;
+}
+
+.game-title{
+	color: #023047;
+	font-family: Raleway;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 45px;
+	text-align: center;
+}
+
+.games-btn a{
+	color: #fff;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	padding: 16px 32px;
+	background-color: #DA722C;
+	border-radius: 20px;
+}
+
+.app-title{
+	font-family: Raleway;
+	font-size: 60px;
+	font-weight: 900;
+	line-height: 72px;
+	text-align: center;
+	color: #023047;
+}
+
+.app-desc{
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+	text-align: center;
+	color: #023047;
+}
+
+.app-text{
+	margin-bottom: 45px;
+}
+
+.app-cards{
+	display: flex;
+	justify-content: space-between;
+}
